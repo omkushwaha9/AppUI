@@ -1,14 +1,11 @@
-// indexFile
 import { View, Text } from 'react-native'
 import React from 'react'
 import ColorList from '../../components/ColorList'
 
-const Home = () => {
+export default function About() {
   return (
     <View>
-      <ColorList color="#0891b2" />
+       <ColorList color="#059669" />
     </View>
   )
 }
-
-export default Home

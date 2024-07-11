@@ -1,0 +1,5 @@
+const navigation = useNavigation();
+    const openDrawer = ()=>{
+        navigation.dispatch(DrawerActions.openDrawer())
+    }
+    <Button title="open drawer" onPress={openDrawer}/>

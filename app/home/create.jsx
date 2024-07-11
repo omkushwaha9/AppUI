@@ -1,14 +1,14 @@
-// profileFile
+// createFile
 import { View, Text } from 'react-native'
 import React from 'react'
 import ColorList from '../../components/ColorList'
 
-const Profile = () => {
+const Create = () => {
     return (
         <View>
-            <ColorList color="#78716c" />
+            <ColorList color="#fa541c" />
         </View>
     )
 }
 
-export default Profile
+export default Create
